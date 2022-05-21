@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a {
+    background-color: #ddd;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* .a:hover{
+overflow: visible;    /*تظهر النص المخفي  عند توجيه الماوس عليها
+
+}*/
+
+
+.b {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+    display: table-cell;
+    border: 2px dashed red;
+    font-family: serif sans-serif unset;
+}
+
+.b p {
+    border: 4px solid;
+    border-color: inherit;
+    padding: inherit;
+}
+
+/**********************************************************************************/
+/*
+..CSS Units:
+..-px
+..-em => Time
+..-rem => root Time
+..-vw => Viewport Width     هي عرض الصفحة نفسها أو المساحة البيضاء من الصفحة
+..-percentage
+
+..Read
+..-vmin
+..-vh
+
+.. Default Font Size For Web Page is 16 px
+*/
+
+.c {
+    font-size: 2rem;
+    /* font-size: 5vw; */
+    font-weight: 700;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    cursor: grab;
+}
+
+/*******************************************************************/
+/*
+..Float
+..Clear
+*/
+
+.Parent {
+    background-color: red;
+    padding: 10px;
+
+}
+
+.Parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    display: inline-block;
+    width: 25%;
+    float: left;  /*تجعل العناصر تعوم في الصفحة*/
+
+}
+
+.f{
+    background-color: #eee;
+    padding: 10px;
+    border: solid;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+/****************************************************/
+

@@ -1,0 +1,52 @@
+/*
+..Block
+...
+..- Take full Width If No Width.
+..- Add Line Break.
+..- Respect Padding, Margin, Width, Height.
+
+..Inline
+...
+..- Don't Respect Width, Height.
+..- Respect Padding and Margin [Just from Left & Right].
+..- Allow Elements Before and After it.
+..- Don't Add Line break.
+
+..Inline-Block
+..- Allow Elements Before and After it.
+..- Respect Padding, Margin, Width, Height.
+*/
+
+
+div{
+    background-color:red;
+    padding: 10px;
+    margin:  10px; /*ضع كل بلوك لحال*/
+  /*  display: none; تخفي العناصر*/
+   visibility: visible;
+}
+
+.f{
+    /* display: none; */
+    visibility: hidden; /*تخفي العنصر مع بقاء مكانه محجوز*/
+    
+}
+  
+
+/* span {
+    background-color: bisque;
+    /*  padding: 30px;
+    display: block;
+    margin: 10px;
+    /* width: 200px;
+    height: 20px; 
+    /*يتم تجاهلهم هنا
+
+}*/
+
+/* span {
+    background-color: bisque;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}*/

@@ -1,0 +1,37 @@
+p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*نوع الخط*/
+    /* font-size: x-large; */   /*حجم الخط*/
+    font: 1em sans-serif;
+    font-weight: 900; /*تتحكم في سماكة الخط قيمها من 100 ل900*/
+
+    /* font-style: oblique; /*نمط الخط*/
+    /*  font-variant: small-caps;  /*تكتب الأحرف بحجم صغير*/
+    text-decoration: underline red;  /*يضع حدود للنص
+     مثلا هكذا يضع خط تحت الكلام  */
+
+    text-align: center; /*لمحاذاة النص*/
+    text-transform: capitalize;  /*تحول من كابيتال لسمول وهكذا*/
+    letter-spacing: 5px;  /*تضع مسافات بين الأحرف*/
+    text-shadow: 0.2em 0.1em silver;  /*خيال للكلام*/
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: armenian;
+      /* list-style-image: url(../../5g.jpg);  /*نضع صورة من عندنا كرمز أو ايموجي وهناك رموز جاهزة في الcss*/
+}
+
+.s {
+    text-decoration: underline blue;  /*وضعنا خط تحت العناصر اللي الها كلاس a*/
+}
+
+/* ol a {font-weight: bold;}   /*كل الروابط الموجودة في القوائم المرتبة سيطبق عليها الخط bold*/
+p em {
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+/*هذا المطلوب من شابتر 12*/

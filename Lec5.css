@@ -1,0 +1,17 @@
+#p{
+    border-radius: 50%;
+
+}
+
+h1{
+    text-decoration: underline;
+}
+.d{
+    list-style-type: none;
+    display:inline;
+    align-items: center;
+}
+
+body{
+    border:solid 5px red;
+}

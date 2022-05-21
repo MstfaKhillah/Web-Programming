@@ -1,0 +1,18 @@
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+
+b {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type:armenian;
+}
+
+#s {
+    color: red;
+    text-decoration: underline;
+}

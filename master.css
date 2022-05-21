@@ -1,0 +1,42 @@
+.my-p {
+    /* وضعنا نقطة قبلها ليعرف أن هذا كلاس*/
+    /*لو كان آي دي بنحط اشارة هاشتاغ*/
+    color: aqua;
+    font-size: 20px;
+}
+
+div {
+    /*لإضافة الهوامش*/
+    /*Top Right Bottom Left*/
+    /* 10px 10px 10px 10px*/
+    /*padding: 10px;*/
+
+    /*Top Right Bottom Left*/
+    /*10px 20px 10px 20px*/
+    /* padding: 10px 20px; */
+
+     /*Top Right Bottom Left*/
+     /*10px 20px 15px 20px*/
+     /* padding: 10px 20px 15px; */
+
+     /* padding: 0 0 10px; */
+    /* padding-bottom: 10px;  Same of above*/
+     /* padding-top: 10px;  */
+
+
+     /* margin-top: 30px ; يقبل قيمة سالبة ويستخدم لمحاذاة العناصر */
+     
+    /* border-width: 10px 10px 10px 10px;   /*الحواف*/
+    /* border-color: rebeccapurple aquamarine yellow palegreen; /*لون البوردر*/
+    /* border-style: dashed ; /*نوع البوردر يجب تحديده حتى تظهر باقي خواص البوردر*/
+     border: 10px solid darkblue   ;    /*اختصار لكل الخواص في جملة واحدة ولكن تكفي لصفة واحدة فقط*/
+}
+
+
+
+p{
+    /* margin: 10%; */
+    margin-right: auto;
+    margin-left: auto;
+}
+

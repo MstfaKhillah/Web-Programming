@@ -1,0 +1,25 @@
+body{
+  
+    background-color: rgb(100 100 250 / 50%); /*Red Green Blue */
+   /*ال50% هي درجة شفافية اللون */
+}
+
+#a{
+
+    background-image: url("../../g.jpg" );
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center ;
+    background-size: 100% 100%;
+}
+
+#i{
+    color: brown;
+}
+.c{
+    font-weight: 200;
+    color: rgb(235, 69, 69);
+}
+h2{
+    color: antiquewhite;
+}

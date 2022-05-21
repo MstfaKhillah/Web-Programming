@@ -1,0 +1,44 @@
+ul {
+    list-style-type:none;
+    background-color: red;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+}
+
+div{
+    background-color: bisque;
+    float: left;
+    padding: 1px;
+}
+
+p {
+    clear: left;
+}
+
+em {
+    position: relative;
+    top: 2em;
+    left: 3em;
+    background-color: aquamarine;
+}
+
+.A {
+    position: absolute;
+    background-color: aquamarine;
+    z-index: 20;
+}
+
+.B {
+    position: absolute;
+    background-color: rgb(212, 255, 127);
+    z-index: 30;
+}
+
+.A {
+    position: absolute;
+    background-color: rgb(223, 29, 29);
+    z-index: 35;
+}

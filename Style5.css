@@ -1,0 +1,85 @@
+body {
+    min-height: 5000px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: 18.8%;
+    float: left;
+    margin: 0;
+} */
+
+.one {
+    background-color: red;
+    opacity: 0.3;
+    /*تتحكم في شفافية العنصر*/
+}
+
+.two {
+    background-color: rgb(255 0 0 /0.1);
+}
+
+/*************************************/
+div {
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+.o {
+    background-color: red;
+    /* position: static;     /*يبقى مكانه ثابت ولا يمكن تحريكه*/
+    /* position: relative;   /*يتحرك العنصر بناء على نفسه دون أن يتأثر بالعناصر الأخرى*/
+    /* position: absolute;   /*يتحرك بناء على الصفحة*/
+    position: fixed;         /*يبقى العنصر ثابت في الصفحة*/   
+    bottom: 0;
+    right: 0;
+}
+
+.t {
+    background-color: green;
+}
+
+.p {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+    z-index: 2;   /*يعطي الأولوية للعنصر الذي سيظهر بالأعلى*/
+}
+
+
+.s{
+    background-color: red;
+    color: white;
+    width: auto;
+    padding: 10px;
+    position: sticky;  /*يثبت العنصر في مكان محدد من الصفحة*/
+    top: 10px;    /*سيثبت العنصر عند مستوى ال10 بيكسل*/
+
+}
+
+table{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-spacing: 5px;
+}
+table td {
+    padding: 15px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+  }
+
+  table thead td {
+    background-color: #f44336;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    border-color: #F35246;
+  } 
